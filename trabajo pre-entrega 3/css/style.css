@@ -1,0 +1,368 @@
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+
+    flex-direction: column;
+
+    height: 1550px;
+
+}
+
+.titulo{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: green;
+
+    
+}
+
+.lanzaguisantes_heroe{
+
+    display: flex;
+
+    flex-direction: row;
+}
+
+.lanzaguisantes_heroe img{
+
+    width: 570px;
+
+    height: 460px;
+
+    border-radius: 230px;
+}
+
+.lanzaguisantes_heroe p{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 30px;
+
+    width: 70%;
+
+    color: white;
+
+    transition: 1s;
+}
+
+.lanzaguisantes_heroe p:hover{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 34px;
+
+    /* width: 70%; */
+
+    color: greenyellow;
+}
+
+/*  */
+
+.destellosolar_heroe{
+
+    display: flex;
+
+    flex-direction: row;
+}
+
+.destellosolar_heroe img{
+
+    width: 570px;
+
+    height: 460px;
+
+    border-radius: 230px;
+}
+
+.destellosolar_heroe p{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 30px;
+
+    width: 70%;
+
+    color: white;
+
+    transition: 1s;
+}
+
+.destellosolar_heroe p:hover{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 34px;
+
+    /* width: 70%; */
+
+    color: greenyellow;
+}
+
+/*  */
+
+.zombigigante{
+
+    display: flex;
+
+    flex-direction: row;
+}
+
+.zombigigante img{
+
+    width: 570px;
+
+    height: 460px;
+
+    border-radius: 230px;
+}
+
+.zombigigante p{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 30px;
+
+    width: 70%;
+
+    color: white;
+
+    transition: 1s;
+}
+
+.zombigigante p:hover{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: start;
+
+    font-size: 34px;
+
+    /* width: 70%; */
+
+    color: red;
+}
+
+
+footer{
+
+    display: flex;
+
+    justify-content: end;
+
+    background-color: gray;
+
+    font-size: 20px;
+
+    height: 70px;
+
+}
+
+
+@media (max-width: 480px){
+
+    main{
+
+        height: 2010px;
+    }
+
+    .lanzaguisantes_heroe{
+
+        flex-direction: column;
+    }
+
+    .lanzaguisantes_heroe img{
+
+        width: 463px;
+
+        height: 440px
+    }
+
+    .lanzaguisantes_heroe p{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+
+    .lanzaguisantes_heroe p:hover{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+    /*  */
+
+    .destellosolar_heroe{
+
+        flex-direction: column;
+    }
+
+    .destellosolar_heroe img{
+
+        width: 463px;
+
+        height: 440px
+    }
+
+    .destellosolar_heroe p{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+
+    .destellosolar_heroe p:hover{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+    /*  */
+
+    .zombigigante{
+
+        flex-direction: column;
+    }
+
+    .zombigigante img{
+
+        width: 463px;
+
+        height: 440px
+    }
+
+    .zombigigante p{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+
+    .zombigigante p:hover{
+
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+        text-align: center;
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 25px;
+    }
+
+
+}

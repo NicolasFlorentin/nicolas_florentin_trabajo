@@ -1,0 +1,210 @@
+body{
+    
+    background-color: bisque;
+}
+
+main{
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.titulo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: crimson;
+}
+
+.container{
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+.venenoso{
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: blueviolet;
+
+    border-radius: 45px;
+}
+
+.venenoso img{
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double violet;
+
+    transition: 1s;
+}
+
+.venenoso img:hover{
+
+    width: 410px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double violet;
+}
+
+.venenoso p{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: black;
+
+    background-color: violet;
+
+    border-radius: 35px;
+}
+
+/*  */
+
+.hielo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: white;
+
+    border-radius: 45px;
+}
+
+.hielo img{
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double aqua;
+
+    transition: 1s;
+}
+
+.hielo img:hover{
+
+    width: 410px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double aqua;
+}
+
+.hielo p{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    background-color: blue;
+
+    border-radius: 35px
+}
+
+/*  */
+
+.fuego{
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: red;
+
+    border-radius: 45px;
+}
+
+.fuego img{
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double brown;
+
+    transition: 1s;
+}
+
+.fuego img:hover{
+
+    width: 342px;
+
+    height: 300px;
+
+    border-radius: 100px;
+
+    border: 30px double brown;
+}
+
+.fuego p{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    background-color: black;
+
+    border-radius: 35px;
+}
+
+footer{
+
+    display: flex;
+
+    justify-content: end;
+
+    background-color: greenyellow;
+
+    height: 79px;
+}
